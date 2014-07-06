@@ -35,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		55C169171969DE7C0075FF23 /* WeekNumber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeekNumber.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55C169171969DE7C0075FF23 /* Week Number.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Week Number.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55C1691A1969DE7C0075FF23 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		55C1691C1969DE7C0075FF23 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		55C1691E1969DE7C0075FF23 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -94,7 +94,7 @@
 		55C169181969DE7C0075FF23 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				55C169171969DE7C0075FF23 /* WeekNumber.app */,
+				55C169171969DE7C0075FF23 /* Week Number.app */,
 				55C1693B1969DE7C0075FF23 /* WeekNumberTests.xctest */,
 			);
 			name = Products;
@@ -172,7 +172,7 @@
 			);
 			name = WeekNumber;
 			productName = WeekNumber;
-			productReference = 55C169171969DE7C0075FF23 /* WeekNumber.app */;
+			productReference = 55C169171969DE7C0075FF23 /* Week Number.app */;
 			productType = "com.apple.product-type.application";
 		};
 		55C1693A1969DE7C0075FF23 /* WeekNumberTests */ = {
@@ -393,7 +393,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WeekNumber/WeekNumber-Prefix.pch";
 				INFOPLIST_FILE = "WeekNumber/WeekNumber-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Week Number";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -406,7 +406,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WeekNumber/WeekNumber-Prefix.pch";
 				INFOPLIST_FILE = "WeekNumber/WeekNumber-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Week Number";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

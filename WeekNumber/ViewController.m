@@ -10,20 +10,22 @@
 
 @interface ViewController ()
 
+@property (nonatomic, weak) IBOutlet UITextView *_weekNumber;
+
 @end
 
 @implementation ViewController
 
-- (void)viewDidLoad
+- (void)loadView
 {
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
+    [super loadView];
+	
+    NSDate *today = [NSDate date];
+    NSCalendar *calendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSISO8601Calendar];
+    NSInteger week = [[calendar components: NSWeekOfYearCalendarUnit fromDate:today] weekOfYear];
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    self._weekNumber.editable = NO;
+    self._weekNumber.text = [NSString stringWithFormat:@"%i", (int) week];
 }
 
 @end
